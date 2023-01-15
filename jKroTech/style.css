@@ -1,0 +1,189 @@
+body {
+font: 15px/1.5  Verdana, Arial, sans-sarif;
+padding:0;
+marging:0;
+background-color: white;
+}
+
+
+.container {
+width:80%;
+margin:auto;
+overflow:hidden;
+}
+
+ul{
+margin:0;
+paddidng:0;
+}
+
+.botton_1{
+height: 28px;
+background: red;
+border: 0;
+padding-left: 20px
+padding-right: 20px;
+color: White;
+}
+
+
+header {
+background-color: #35424a;
+color: White;
+padding-top:30px;
+min-height:70px;
+border-bottom:red 10px solid;
+}
+
+header a {
+color: White;
+text-decoration:none;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+header li{
+float: left;
+display: inline;
+padding: 0 20px 0 20px;
+}
+
+
+header #branding {
+float: left;
+}
+
+header #branding h1{
+margin:0;
+}
+
+header nav{
+float:right;
+margin-top: 10px;
+}
+
+header .highlight, header .current a{
+color: red;
+font-weight: bold;
+}
+
+header a:hover{
+color:Gray;
+font-weight: bold;
+}
+
+/* Showcase*/
+
+#showcase {
+min-height: 400px;
+background: url("images/showcase3.jpg");
+background-repeat: no-repeat;
+background-size:100% 400px;
+}
+
+#showcasecus {
+    min-height: 400px;
+    background: url("images/showCaseContactUs.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 400px;
+    }
+
+#showcase h1{
+margin-top: 10px;
+font-size:55px;
+text-align: center;
+margin-bottom:10px;
+color: White;
+}
+
+#showcase p{
+margin-top: 20px;
+font-size:30px;
+text-align: center;
+margin-bottom:10px;
+color: White;
+}
+
+#newsletter{
+padding:15px;
+color: White;
+background:Black;
+}
+
+#newsletter h1{
+float: left;
+}
+
+#newsletter form{
+float: right;
+margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+padding:4px;
+height:25px;
+width:250px;
+}
+
+#boxes{
+margin-top:30px;
+}
+
+#boxes .box{
+float: left;
+text-align: center;
+width: 30%;
+padding:10px;
+}
+
+#boxes .box img{
+width:90px;
+}
+
+footer{
+padding:20px;
+margin-top:20px;
+color: white;
+background-color:#35424a;
+text-align: center;
+font-family: Tahoma;
+font-weight: bold
+}
+
+footer .highlight2 {
+color: #00bfff;
+font-size:16px;
+font-weight: bold;
+}
+
+.container2{
+margin-bottom: 0;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
